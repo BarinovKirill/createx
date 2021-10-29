@@ -1,0 +1,50 @@
+.values {
+    margin-bottom: 120px;
+    &__container {
+        text-align: center;
+    }
+
+    &__title {
+        margin-bottom: 24px;
+    }
+
+    &__text {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 60px;
+        font-size: 18px;
+        line-height: 150%;
+        color: var(--color-gray700);
+    }
+}
+.value-boxes {
+    display: flex;
+    justify-content: space-between;
+    &__title {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 8px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 150%;
+        color: var(--color-gray900);
+    }
+
+    &__text {
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        line-height: 160%;
+        color: var(--color-gray700);
+    }
+}
+.values-boxes {
+    &__item {
+        width: 285px;
+        svg {
+            height: 48px;
+            width: 48px;
+            margin-bottom: 24px;
+        }
+    }
+}

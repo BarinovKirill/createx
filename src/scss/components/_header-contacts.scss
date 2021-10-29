@@ -3,8 +3,32 @@
     align-items: center;
 }
 .contact-item {
+    padding-left: 52px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
     &--phone {
+        background-image: url(../img/svg/phone.svg);
     }
     &--mail {
+        margin-left: 36px;
+        background-image: url(../img/svg/mail.svg);
+    }
+
+    span {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 150%;
+        color: var(--color-gray800);
+    }
+    a {
+        font-size: 18px;
+        line-height: 150%;
+        color: var(--color-gray900);
+
+        &:hover {
+            color: var(--color-gray800);
+            transition: all 0.3 ease;
+        }
     }
 }

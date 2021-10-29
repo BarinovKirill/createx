@@ -36,7 +36,23 @@ a {
   background: transparent;
   cursor: pointer;
 }
-
+.btn {
+  line-height: 44px;
+  padding-right: 32px;
+  padding-left: 32px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.title-h3 {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 130%;
+  color: var(--color-gray900);
+}
 .list-reset {
   list-style: none;
   margin: 0;

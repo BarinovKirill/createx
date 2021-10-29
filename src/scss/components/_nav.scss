@@ -1,0 +1,23 @@
+.header {
+    &__nav {
+        margin-left: -90px;
+    }
+}
+.nav {
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 40px;
+    }
+
+    &__item {
+        list-style: none;
+    }
+
+    &__link {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 160%;
+        color: var(--color-gray800);
+    }
+}

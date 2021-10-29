@@ -1,0 +1,10 @@
+.header-contacts {
+    display: flex;
+    align-items: center;
+}
+.contact-item {
+    &--phone {
+    }
+    &--mail {
+    }
+}

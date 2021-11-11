@@ -1,0 +1,19 @@
+.section-transition {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.section-transition-text {
+    margin-right: 40px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    color: var(--color-gray900);
+}
+
+.section-transition-btn {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
